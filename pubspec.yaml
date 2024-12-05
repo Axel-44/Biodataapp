@@ -1,0 +1,30 @@
+name: nyoba_biodata
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.16
+
+
+  cupertino_icons: ^1.0.2
+  url_launcher: ^6.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/profile.jpg/Foto profil.jpg
+    - assets/images/background.jpg/bangunan kampus.jpg
+    - assets/images/Keahlian/figma.jpg
+    - assets/images/Keahlian/photoshop.jpeg
+    - assets/images/Keahlian/ilustrator.jpeg
